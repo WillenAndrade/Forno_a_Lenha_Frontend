@@ -39,6 +39,7 @@ h1::selection {
 .message {
     max-width: 100%;
     font-size: 60px;
+    text-align: center;
 }
 
 span {
