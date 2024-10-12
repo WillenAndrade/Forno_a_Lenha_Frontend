@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forno a Lenha App</title>
+</head>
+<body>
+    <header>
+        <img  class="logo" src="assets/fogao-a-lenha-logo.png" alt="Logo da Pizzaria" id="logo">
+    </header>
+    <div class="title">
+        <h1><span>Forno a Lenha!</span></h1>
+        <h1 class="message">Paixão e tradição em cada ingrediente!</h1>
+    </div>
+    <div class="formContainer">
+            
+            <form id="feedbackForm">
+                <img  class="logoForm" src="assets/fogao-a-lenha-logo.png" alt="Logo da Pizzaria" id="logo">
+                <p>Deixe seu feedback!</p>
+
+                <input type="text" id="name" name="name" placeholder="Nome ou Email" required>
+            
+                <textarea class="suggestion-text" name="suggestion" rows="4" cols="50" placeholder="Deixe sua sugestão ou reclamação aqui..."></textarea>
+                
+                <button type="submit">Enviar</button>
+
+                <div class="formTitle"><h2>"Sua opinião é importante para nós!"</h2></div>
+                
+            </form>
+
+    </div>
+    <footer>
+        <a href="assets/cardapio.pdf" download>Baixar Cardápio</a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script> 
+    
+</body>
+</html>
