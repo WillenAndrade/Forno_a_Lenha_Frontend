@@ -17,12 +17,20 @@ header {
 
 
 .title {
+<<<<<<< HEAD
     width: 80%;
+=======
+    width: 100%;
+>>>>>>> cd68263 (Ultimas alterações)
     display: flex;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+<<<<<<< HEAD
+=======
+    background: lightblue;
+>>>>>>> cd68263 (Ultimas alterações)
 }
 
 h1 {
@@ -37,9 +45,15 @@ h1::selection {
 }
 
 .message {
+<<<<<<< HEAD
     max-width: 100%;
     font-size: 60px;
     text-align: center;
+=======
+    font-size: 60px;
+    text-align: center;
+    width: 100%;
+>>>>>>> cd68263 (Ultimas alterações)
 }
 
 span {
