@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedbacklist.css">
+    <title>FeedBackList</title>
+</head>
+<body>
+    <div class="container">
+        <div id="authenticator">
+            <form id="authenticatorForm">
+                <img  class="logoForm" src="assets/fogao-a-lenha-logo.png" alt="Logo da Pizzaria" id="logo">
+                <p class="loginParagraph">Login!</p>
+                <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                <p id="passMessage">Usuário ou senha inválidos!</p>
+                <button id="btnAcess" type="submit">Acessar</button>
+            </form>
+        </div>
+        <div id="feedContainer">
+            <header>
+                <img  class="logo" src="assets/fogao-a-lenha-logo.png" alt="Logo da Pizzaria" id="logo">
+            </header>
+            <h1 class="FeedBackTitle">FeedBacks (<span id="spanName"></span>)</h1>
+                <div id="feedbackList"></div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="feedbacklist.js"></script>
+</body>
+</html>
