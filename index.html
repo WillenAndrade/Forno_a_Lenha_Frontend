@@ -15,20 +15,22 @@
         <h1 class="message">Paixão e tradição em cada ingrediente!</h1>
     </div>
     <div class="formContainer">
-            
+        
             <form id="feedbackForm">
                 <img  class="logoForm" src="assets/fogao-a-lenha-logo.png" alt="Logo da Pizzaria" id="logo">
                 <p>Deixe seu feedback!</p>
 
-                <input type="text" id="name" name="name" placeholder="Nome ou Email" required>
+                <input class="name-input" type="text" id="name" name="name" placeholder="Nome ou Email" required>
             
                 <textarea class="suggestion-text" name="suggestion" rows="4" cols="50" placeholder="Deixe sua sugestão ou reclamação aqui..."></textarea>
                 
-                <button type="submit">Enviar</button>
-
+                <button class="btn-submit" type="submit">Enviar</button>
+                <div id="successMessage" class="hidden"></div>
                 <div class="formTitle"><h2>"Sua opinião é importante para nós!"</h2></div>
                 
+    
             </form>
+            
 
     </div>
     <footer>
